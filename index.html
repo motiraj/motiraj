@@ -3,14 +3,18 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Moti Raj Gautam | Academician & WordPress Engineer</title>
+  <title>Moti Raj Gautam | Academician & Software Engineer</title>
   <link rel="stylesheet" href="style.css" />
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
 </head>
 <body>
+
+  <!-- Ambient Background Glow Effects -->
+  <div class="ambient-glow glow-1"></div>
+  <div class="ambient-glow glow-2"></div>
 
   <!-- Navigation Bar -->
   <header class="navbar">
@@ -20,7 +24,7 @@
         <a href="#about">About</a>
         <a href="#experience">Experience</a>
         <a href="#projects">Projects & Research</a>
-        <a href="#contact" class="btn-nav">Get in Touch</a>
+        <a href="#contact" class="btn-nav">Let's Connect</a>
       </nav>
     </div>
   </header>
@@ -30,15 +34,15 @@
     <div class="container hero-grid">
       <div class="hero-content">
         <div class="badge-pill">
-          <i class="fa-solid fa-graduation-cap"></i> Academician & Full-Stack Developer
+          <span class="pulse-dot"></span> Available for Academic & Tech Collaborations
         </div>
-        <h1>Hi, I'm <span class="highlight">Moti Raj Gautam</span></h1>
-        <p class="hero-subtitle">Assistant Campus Chief, IQAC/SAT Coordinator, and Software Engineer bridging higher education administration with modern open-source web solutions.</p>
+        <h1>Hi, I'm <span class="gradient-text">Moti Raj Gautam</span></h1>
+        <p class="hero-subtitle">Assistant Campus Chief, IQAC/SAT Coordinator & Full-Stack WordPress Engineer.</p>
         <p class="hero-desc">
-          Dedicated to quality assurance in higher education at Yagyodaya Dudhnath Tharu Multiple Campus (YDMC) alongside engineering high-performance software, research documentation, and WordPress plugins.
+          Bridging higher education administration at Yagyodaya Dudhnath Tharu Multiple Campus (YDMC) with modern web software development, plugin architecture, and empirical institutional research.
         </p>
         <div class="hero-actions">
-          <a href="#contact" class="btn primary"><i class="fa-solid fa-envelope"></i> Contact Me</a>
+          <a href="#contact" class="btn primary-btn"><i class="fa-solid fa-paper-plane"></i> Get in Touch</a>
           <div class="social-icons">
             <a href="https://www.linkedin.com/in/moti-raj-gautam-1060005a/" target="_blank" rel="noopener noreferrer" title="LinkedIn"><i class="fa-brands fa-linkedin-in"></i></a>
             <a href="https://profiles.wordpress.org/motiraj/" target="_blank" rel="noopener noreferrer" title="WordPress.org"><i class="fa-brands fa-wordpress"></i></a>
@@ -46,70 +50,84 @@
           </div>
         </div>
       </div>
-      <div class="hero-card-stats">
-        <div class="stat-box">
-          <h3>14+</h3>
-          <p>Years in Academic Leadership</p>
+      
+      <!-- Profile Visual Column -->
+      <div class="hero-visual-col">
+        <div class="profile-card-glass">
+          <div class="profile-photo-wrapper">
+            <img src="https://avatars.githubusercontent.com/u/104975317?v=4" alt="Moti Raj Gautam" class="profile-avatar" onerror="this.src='https://secure.gravatar.com/avatar/?s=250&d=mp'" />
+            <div class="avatar-badge" title="WordPress Contributor">
+              <i class="fa-brands fa-wordpress"></i>
+            </div>
+          </div>
+          <div class="profile-info-mini">
+            <h3>Moti Raj Gautam</h3>
+            <p>M.Ed. (Tribhuvan University)</p>
+            <span class="location-tag"><i class="fa-solid fa-location-dot"></i> Nepal</span>
+          </div>
         </div>
-        <div class="stat-box">
-          <h3>M.Ed.</h3>
-          <p>Tribhuvan University Degree</p>
-        </div>
-        <div class="stat-box">
-          <h3>WordPress</h3>
-          <p>Plugin Contributor & Dev</p>
+        <div class="hero-stats-row">
+          <div class="stat-pill">
+            <h4>14+ Years</h4>
+            <p>Leadership</p>
+          </div>
+          <div class="stat-pill">
+            <h4>PHP / WP</h4>
+            <p>Developer</p>
+          </div>
         </div>
       </div>
     </div>
   </section>
 
   <!-- Working Experience Section -->
-  <section class="section section-alt" id="experience">
+  <section class="section" id="experience">
     <div class="container">
-      <div class="section-header">
+      <div class="section-header center">
+        <span class="section-tag">Career Track</span>
         <h2>Professional Experience</h2>
-        <p>A history of institutional leadership, software project research, and team coordination.</p>
+        <p>A track record of institutional governance, teaching excellence, and software engineering.</p>
       </div>
 
-      <div class="timeline">
+      <div class="timeline-grid">
         
         <!-- Job 1 -->
-        <div class="timeline-item">
-          <div class="timeline-marker"></div>
-          <div class="timeline-card">
-            <span class="timeline-date">2010 – Present (14+ Years)</span>
-            <h3>Assistant Campus Chief & IQAC / SAT Coordinator</h3>
-            <h4>Yagyodaya Dudhnath Tharu Multiple Campus (YDMC)</h4>
-            <p>
-              Leading internal quality assurance (IQAC/SAT), institutional planning, administrative coordination, and instructional management as Assistant Professor of Health Education. Driving campus-wide digital transformations and community-aligned educational frameworks.
-            </p>
+        <div class="timeline-card">
+          <div class="card-top">
+            <span class="badge-time">2010 – Present (14+ Years)</span>
+            <span class="card-icon"><i class="fa-solid fa-building-columns"></i></span>
           </div>
+          <h3>Assistant Campus Chief & IQAC / SAT Coordinator</h3>
+          <h4>Yagyodaya Dudhnath Tharu Multiple Campus (YDMC)</h4>
+          <p>
+            Directing institutional quality assurance (IQAC/SAT), strategic academic planning, and curriculum delivery as Assistant Professor of Health Education. Spearheading digitalization initiatives across campus workflows.
+          </p>
         </div>
 
         <!-- Job 2 -->
-        <div class="timeline-item">
-          <div class="timeline-marker"></div>
-          <div class="timeline-card">
-            <span class="timeline-date">Active Contributor</span>
-            <h3>WordPress Plugin Developer & Maintainer</h3>
-            <h4>Independent / WordPress.org Community (`motiraj`)</h4>
-            <p>
-              Architecting and deploying secure, PHPCS-compliant WordPress extensions like <em>GlowReviews</em>. Focused on custom post types, shortcode hooks, AJAX form security, and pure CSS front-end styling.
-            </p>
+        <div class="timeline-card">
+          <div class="card-top">
+            <span class="badge-time">Active Contributor</span>
+            <span class="card-icon"><i class="fa-brands fa-wordpress"></i></span>
           </div>
+          <h3>WordPress Plugin Developer & Maintainer</h3>
+          <h4>Independent / WordPress.org (`motiraj`)</h4>
+          <p>
+            Architecting robust, PHPCS-compliant WordPress extensions like <em>GlowReviews</em>. Focused on clean custom post types, secure AJAX request handling, shortcodes, and modern responsive UI styling.
+          </p>
         </div>
 
         <!-- Job 3 -->
-        <div class="timeline-item">
-          <div class="timeline-marker"></div>
-          <div class="timeline-card">
-            <span class="timeline-date">Collaborative Tech Initiative</span>
-            <h3>Project Research & Management</h3>
-            <h4>DearHive Technology Pvt. LTD. <a href="https://dearhive.com/about-us/" target="_blank" rel="noopener noreferrer" class="external-link"></a></h4>
-            <p>
-              Handled product research, client requirement mapping, graphic design workflow management, and application solutions architecture alongside a team of expert creative developers.
-            </p>
+        <div class="timeline-card">
+          <div class="card-top">
+            <span class="badge-time">Tech Collaboration</span>
+            <span class="card-icon"><i class="fa-solid fa-code"></i></span>
           </div>
+          <h3>Project Research & Management</h3>
+          <h4>DearHive Web Solutions <a href="https://dearhive.com/about-us/" target="_blank" rel="noopener noreferrer" class="external-link"><i class="fa-solid fa-arrow-up-right-from-square"></i></a></h4>
+          <p>
+            Guided software project ideation, UX requirement mapping, graphic asset pipelines, and client technical architecture specifications alongside cross-functional web development teams.
+          </p>
         </div>
 
       </div>
@@ -117,50 +135,57 @@
   </section>
 
   <!-- Software Projects & Research Section -->
-  <section class="section" id="projects">
+  <section class="section alt-bg" id="projects">
     <div class="container">
-      <div class="section-header">
+      <div class="section-header center">
+        <span class="section-tag">Portfolio & Publications</span>
         <h2>Software Projects & Research Reports</h2>
-        <p>Official WordPress open-source contributions and published academic research works.</p>
+        <p>Official open-source repository plugins and peer-evaluated academic research documents.</p>
       </div>
 
       <div class="grid-3">
         
         <!-- Project 1 -->
-        <div class="project-card">
-          <div class="project-tag">Official Repository</div>
-          <h3>Glow Reviews</h3>
-          <p>Smart feedback and testimonial management plugin featuring 1–5 star reviews, moderation workflow, secure email handling, and customizable layouts.</p>
-          <div class="tech-tags">
-            <span>PHP</span><span>WordPress</span><span>AJAX</span><span>CSS3</span>
+        <div class="bento-card">
+          <div class="bento-header">
+            <span class="tech-badge wp-badge"><i class="fa-brands fa-wordpress"></i> Official Repo</span>
           </div>
-          <a href="https://wordpress.org/plugins/glowreviews/" target="_blank" rel="noopener noreferrer" class="project-link">
-            View on WordPress.org &rarr;
+          <h3>Glow Reviews</h3>
+          <p>Smart feedback & testimonial management plugin featuring 1–5 star ratings, automated email verification update workflows, and customizable styles.</p>
+          <div class="pill-tags">
+            <span>PHP</span><span>WordPress CPT</span><span>AJAX</span><span>CSS3</span>
+          </div>
+          <a href="https://wordpress.org/plugins/glowreviews/" target="_blank" rel="noopener noreferrer" class="card-link">
+            View on WordPress.org <i class="fa-solid fa-arrow-right"></i>
           </a>
         </div>
 
-        <!-- Project 2 (Mini Research Report added into card grid) -->
-        <div class="project-card featured-research-card">
-          <div class="project-tag research-tag"><i class="fa-solid fa-file-pdf"></i> Mini Research Report</div>
-          <h3>Perception and Practice of Menstrual Sanitation among the Female Students of YDMC</h3>
-          <p>An empirical study analyzing student health awareness, hygiene management practices, and campus sanitation infrastructure.</p>
-          <div class="tech-tags">
+        <!-- Project 2 (Mini Research Report) -->
+        <div class="bento-card featured-research">
+          <div class="bento-header">
+            <span class="tech-badge research-badge"><i class="fa-solid fa-file-pdf"></i> YDMC Research</span>
+          </div>
+          <h3>Perception and Practice of Menstrual Sanitation among Female Students</h3>
+          <p>Empirical institutional study analyzing awareness gaps, menstrual hygiene management practices, and campus infrastructure recommendations.</p>
+          <div class="pill-tags">
             <span>Public Health</span><span>Research</span><span>YDMC</span>
           </div>
-          <a href="https://ydmc.edu.np/files/downloads/Perception%20and%20Practice%20of%20Menstrual%20Sanitation%20among%20the%20Female%20Students%20of%20YDMC1746861683.pdf" target="_blank" rel="noopener noreferrer" class="project-link">
-            View PDF Report &rarr;
+          <a href="https://ydmc.edu.np/files/downloads/Perception%20and%20Practice%20of%20Menstrual%20Sanitation%20among%20the%20Female%20Students%20of%20YDMC1746861683.pdf" target="_blank" rel="noopener noreferrer" class="card-link research-link">
+            Read PDF Report <i class="fa-solid fa-arrow-right"></i>
           </a>
         </div>
 
         <!-- Project 3 -->
-        <div class="project-card">
-          <div class="project-tag">Utility Engine</div>
-          <h3>FlashLoom Popups</h3>
-          <p>Lightweight modal notice and alert engine built for fast DOM rendering, responsive announcements, and clean admin controls.</p>
-          <div class="tech-tags">
-            <span>JavaScript</span><span>PHP</span><span>UI Design</span>
+        <div class="bento-card">
+          <div class="bento-header">
+            <span class="tech-badge dev-badge"><i class="fa-solid fa-bolt"></i> Tooling</span>
           </div>
-          <span class="project-link muted">In Active Development</span>
+          <h3>FlashLoom Popups</h3>
+          <p>Lightweight modal notice and announcement engine engineered for lightning-fast DOM loading and intuitive WordPress administrative controls.</p>
+          <div class="pill-tags">
+            <span>JavaScript</span><span>PHP</span><span>UI Engine</span>
+          </div>
+          <span class="card-link muted-link">In Active Development</span>
         </div>
 
       </div>
@@ -168,14 +193,14 @@
   </section>
 
   <!-- Contact Section -->
-  <section class="section section-alt contact-section" id="contact">
+  <section class="section contact-section" id="contact">
     <div class="container">
-      <div class="contact-box">
-        <h2>Let's Connect & Collaborate</h2>
-        <p>Interested in discussing higher education leadership, academic research, or WordPress plugin architectures? Reach out via my official profiles.</p>
-        <div class="contact-actions">
-          <a href="https://www.linkedin.com/in/moti-raj-gautam-1060005a/" target="_blank" rel="noopener noreferrer" class="btn primary"><i class="fa-brands fa-linkedin"></i> Connect on LinkedIn</a>
-          <a href="https://www.facebook.com/motiraj.gautam" target="_blank" rel="noopener noreferrer" class="btn secondary"><i class="fa-brands fa-facebook"></i> Message on Facebook</a>
+      <div class="contact-card-glass">
+        <h2>Let's Build Something Meaningful</h2>
+        <p>Whether you want to discuss higher education quality assurance, institutional research, or custom WordPress web solutions, let's connect.</p>
+        <div class="contact-buttons">
+          <a href="https://www.linkedin.com/in/moti-raj-gautam-1060005a/" target="_blank" rel="noopener noreferrer" class="btn primary-btn"><i class="fa-brands fa-linkedin"></i> Connect on LinkedIn</a>
+          <a href="https://www.facebook.com/motiraj.gautam" target="_blank" rel="noopener noreferrer" class="btn secondary-btn"><i class="fa-brands fa-facebook"></i> Message on Facebook</a>
         </div>
       </div>
     </div>
@@ -185,7 +210,7 @@
   <footer>
     <div class="container footer-flex">
       <p>&copy; 2026 Moti Raj Gautam. All rights reserved.</p>
-      <p>Hosted via GitHub Pages &bull; Built with HTML5 & CSS3</p>
+      <p>Designed with Modern Glassmorphism &bull; GitHub Pages</p>
     </div>
   </footer>
 
