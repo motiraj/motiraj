@@ -82,7 +82,7 @@
 <div align="center">
   <h3>🌐 Explore My Full Portfolio Website</h3>
   <p>For a detailed breakdown of my professional timeline, publications, and interactive web tools, visit my live site below:</p>
-  <a href="https://motiraj.github.io">
+  <a href="https://motiraj.github.io/motiraj">
     <img src="https://img.shields.io/badge/🚀_Visit_motiraj.github.io-3b82f6?style=for-the-badge&logoColor=white" alt="Portfolio Website" />
   </a>
   <p><br><em>Thanks for stopping by! Feel free to connect or collaborate.</em></p>
